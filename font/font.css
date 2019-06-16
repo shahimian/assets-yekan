@@ -1,0 +1,9 @@
+@font-face {
+    src: url(yekan.woff);
+    font-family: Yekan;
+}
+
+@font-face {
+    src: url(yekan-numbers-regular.woff);
+    font-family: 'Yekan Numbers Regular'
+}
