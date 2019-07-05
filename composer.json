@@ -1,0 +1,12 @@
+{
+    "name": "shahimian/yekan",
+    "type": "library",
+    "authors": [
+        {
+            "name": "a.shahimian",
+            "email": "shahimian@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
