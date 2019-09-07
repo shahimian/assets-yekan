@@ -1,12 +1,12 @@
 <?php
 /**
- * Created by PhpStorm.
+ * Created by VSCdoe.
  * User: Shahimian
- * Date: 7/7/2016
- * Time: 9:26 PM
+ * Date: 2019-09-07
+ * Time: 13:33:41
  */
 
-namespace app\assets\yekan;
+namespace shahimian\assets\fonts;
 
 
 use yii\web\AssetBundle;
@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
 class Assets extends AssetBundle
 {
 
-    public $sourcePath = "@app/assets/yekan/font";
+    public $sourcePath = "@vendor/shahimian/yii2-persian-fonts/font";
 
     public $css = [
         'font.css',

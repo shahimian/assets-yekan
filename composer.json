@@ -1,12 +1,22 @@
 {
-    "name": "shahimian/yekan-assets",
-    "type": "library",
+    "name": "shahimian/yii2-persian-fonts",
+    "description": "It available necessary Persian fonts.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","font","persian","yekan"],
+    "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
-            "name": "a.shahimian",
+            "name": "Mohammad Ali Shahimian",
             "email": "shahimian@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "shahimian\\assets\\fonts\\": ""
+        }
+    }
 }
