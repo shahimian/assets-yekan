@@ -25,7 +25,4 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \shahimian\assets\fonts\AutoloadExample::widget(); ?>```
+Once the extension is installed, you can use it in [Asset Bundle](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets) at public property `$depends` with `shahimian\assets\fonts\Assets` namespace.
